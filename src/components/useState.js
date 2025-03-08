@@ -17,7 +17,8 @@ function UseStateDemo() {
   const changeColor = () => {
     const randomIndex = Math.floor(Math.random() * colorNames.length);
     
-    setColor(colorNames[randomIndex]);
+    setColor( (prev)=> colorNames[randomIndex]);  // NEW
+    // setColor(colorNames[randomIndex]);         // OLD
     setCarData((prev)=>{
       return {...prev,carColor:colorNames[randomIndex]};
     });
