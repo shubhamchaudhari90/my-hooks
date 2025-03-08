@@ -1,12 +1,14 @@
 import './App.css';
-import UseStateDemo from './components/useState';
+import UseEffectDemo from './components/useEffect';
+// import UseStateDemo from './components/useState';
 
 function App() {
 
 
   return (
     <div className="App">
-      <UseStateDemo></UseStateDemo>
+      {/* <UseStateDemo></UseStateDemo> */}
+      <UseEffectDemo></UseEffectDemo>
     </div>
   );
 }
