@@ -1,5 +1,6 @@
 import './App.css';
 import UseMemoMethodDemo from './components/memoMethodDemo';
+import CallbackDemo from './components/useCallback';
 import UseMemoDemo from './components/useMemo';
 import UseRefDemo from './components/useRef';
 // import UseEffectDemo from './components/useEffect';
@@ -15,7 +16,8 @@ function App() {
       {/* <UseEffectDemo></UseEffectDemo> */}
       {/* <UseRefDemo></UseRefDemo> */}
       {/* <UseMemoDemo></UseMemoDemo> */}
-      <UseMemoMethodDemo></UseMemoMethodDemo>
+      {/* <UseMemoMethodDemo></UseMemoMethodDemo> */}
+      <CallbackDemo></CallbackDemo>
     </div>
   );
 }
