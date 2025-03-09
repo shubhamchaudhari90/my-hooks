@@ -1,4 +1,5 @@
 import './App.css';
+import UseMemoDemo from './components/useMemo';
 import UseRefDemo from './components/useRef';
 // import UseEffectDemo from './components/useEffect';
 // import UseStateDemo from './components/useState';
@@ -11,7 +12,8 @@ function App() {
     <div className="App">
       {/* <UseStateDemo></UseStateDemo> */}
       {/* <UseEffectDemo></UseEffectDemo> */}
-      <UseRefDemo></UseRefDemo>
+      {/* <UseRefDemo></UseRefDemo> */}
+      <UseMemoDemo></UseMemoDemo>
     </div>
   );
 }
