@@ -1,6 +1,8 @@
 import './App.css';
-import UseEffectDemo from './components/useEffect';
+import UseRefDemo from './components/useRef';
+// import UseEffectDemo from './components/useEffect';
 // import UseStateDemo from './components/useState';
+
 
 function App() {
 
@@ -8,7 +10,8 @@ function App() {
   return (
     <div className="App">
       {/* <UseStateDemo></UseStateDemo> */}
-      <UseEffectDemo></UseEffectDemo>
+      {/* <UseEffectDemo></UseEffectDemo> */}
+      <UseRefDemo></UseRefDemo>
     </div>
   );
 }
